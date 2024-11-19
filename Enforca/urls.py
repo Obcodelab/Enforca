@@ -50,6 +50,7 @@ urlpatterns = [
     path("superadmin/", admin.site.urls),
     path("", include("apps.users.urls")),
     path("", include("apps.settings.urls")),
+    path("", include("apps.calender.urls")),
 ]
 
 admin.site.site_header = "Enforca Admin"
